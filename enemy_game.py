@@ -50,7 +50,7 @@ player.velocityY = 5
 # Sets up enemies 
 enemy_list = []
 
-for i in range(3):
+for i in range(1):
     enemy = Actor("alien.png")
     enemy.scale = 1
     enemy.y = random.randint(75, 600)
